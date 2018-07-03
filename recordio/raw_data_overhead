@@ -1,0 +1,302 @@
+bevers@poincare:~/mesosphere/benchmarks/recordio$ ./hfbenchmark.sh 
+8092
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=8092
+
+  Time (mean ± σ):      17.5 ms ±   1.1 ms    [User: 2.2 ms, System: 0.3 ms]
+ 
+  Range (min … max):    16.2 ms …  20.6 ms
+ 
+16184
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=16184
+
+  Time (mean ± σ):      35.4 ms ±   7.9 ms    [User: 1.1 ms, System: 2.1 ms]
+ 
+  Range (min … max):    31.4 ms …  57.7 ms
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet PC without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+24276
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=24276
+
+  Time (mean ± σ):      50.4 ms ±   3.2 ms    [User: 2.0 ms, System: 1.7 ms]
+ 
+  Range (min … max):    45.6 ms …  56.3 ms
+ 
+32368
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=32368
+
+  Time (mean ± σ):      68.9 ms ±   6.9 ms    [User: 1.7 ms, System: 2.4 ms]
+ 
+  Range (min … max):    61.4 ms …  82.9 ms
+ 
+40460
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=40460
+
+  Time (mean ± σ):      87.2 ms ±   5.4 ms    [User: 0.9 ms, System: 3.7 ms]
+ 
+  Range (min … max):    81.1 ms …  97.6 ms
+ 
+48552
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=48552
+
+  Time (mean ± σ):     101.2 ms ±   8.5 ms    [User: 2.1 ms, System: 3.0 ms]
+ 
+  Range (min … max):    90.6 ms … 119.6 ms
+ 
+  Warning: The first benchmarking run for this command was significantly slower than the rest (112.7 ms). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.
+ 
+56644
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=56644
+
+  Time (mean ± σ):     116.5 ms ±   5.7 ms    [User: 2.3 ms, System: 3.6 ms]
+ 
+  Range (min … max):   109.6 ms … 128.5 ms
+ 
+64736
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=64736
+
+  Time (mean ± σ):     148.4 ms ±   9.8 ms    [User: 1.5 ms, System: 5.4 ms]
+ 
+  Range (min … max):   136.8 ms … 171.8 ms
+ 
+72828
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=72828
+
+  Time (mean ± σ):     166.8 ms ±  15.4 ms    [User: 2.5 ms, System: 4.9 ms]
+ 
+  Range (min … max):   150.7 ms … 202.2 ms
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8092
+Benchmark #1: wget http://localhost:1337/my_process/recordio-cached?size=8092
+
+  Time (mean ± σ):      12.8 ms ±   0.7 ms    [User: 1.5 ms, System: 0.9 ms]
+ 
+  Range (min … max):    11.9 ms …  14.2 ms
+ 
+16184
+Benchmark #1: wget http://localhost:1337/my_process/recordio-cached?size=16184
+
+  Time (mean ± σ):      23.7 ms ±   1.0 ms    [User: 1.9 ms, System: 1.2 ms]
+ 
+  Range (min … max):    22.1 ms …  25.4 ms
+ 
+24276
+Benchmark #1: wget http://localhost:1337/my_process/recordio-cached?size=24276
+
+  Time (mean ± σ):      36.2 ms ±   1.5 ms    [User: 2.5 ms, System: 1.2 ms]
+ 
+  Range (min … max):    33.7 ms …  38.3 ms
+ 
+32368
+Benchmark #1: wget http://localhost:1337/my_process/recordio-cached?size=32368
+
+  Time (mean ± σ):      48.1 ms ±   2.6 ms    [User: 2.6 ms, System: 1.6 ms]
+ 
+  Range (min … max):    45.2 ms …  54.2 ms
+ 
+40460
+Benchmark #1: wget http://localhost:1337/my_process/recordio-cached?size=40460
+
+  Time (mean ± σ):      63.4 ms ±   6.5 ms    [User: 1.9 ms, System: 2.8 ms]
+ 
+  Range (min … max):    56.9 ms …  73.9 ms
+ 
+48552
+Benchmark #1: wget http://localhost:1337/my_process/recordio-cached?size=48552
+
+  Time (mean ± σ):      76.3 ms ±   7.7 ms    [User: 1.4 ms, System: 4.1 ms]
+ 
+  Range (min … max):    66.5 ms …  92.7 ms
+ 
+56644
+Benchmark #1: wget http://localhost:1337/my_process/recordio-cached?size=56644
+
+  Time (mean ± σ):      87.1 ms ±   8.3 ms    [User: 1.4 ms, System: 4.5 ms]
+ 
+  Range (min … max):    74.5 ms … 102.1 ms
+ 
+64736
+Benchmark #1: wget http://localhost:1337/my_process/recordio-cached?size=64736
+
+  Time (mean ± σ):      95.6 ms ±   8.5 ms    [User: 3.2 ms, System: 3.3 ms]
+ 
+  Range (min … max):    87.6 ms … 115.8 ms
+ 
+72828
+Benchmark #1: wget http://localhost:1337/my_process/recordio-cached?size=72828
+
+  Time (mean ± σ):     114.7 ms ±  20.9 ms    [User: 3.7 ms, System: 3.6 ms]
+ 
+  Range (min … max):    97.6 ms … 168.4 ms
+
+
+
+
+
+
+
+
+
+
+
+
+bevers@poincare:~/mesosphere/benchmarks/recordio$ ./hfbenchmark.sh 
+8092
+Benchmark #1: wget http://localhost:1337/my_process/json-cached-stringify?size=8092
+
+  Time (mean ± σ):      13.9 ms ±   0.6 ms    [User: 1.6 ms, System: 0.6 ms]
+ 
+  Range (min … max):    12.8 ms …  15.1 ms
+ 
+16184
+Benchmark #1: wget http://localhost:1337/my_process/json-cached-stringify?size=16184
+
+  Time (mean ± σ):      25.7 ms ±   0.8 ms    [User: 1.7 ms, System: 1.3 ms]
+ 
+  Range (min … max):    24.8 ms …  26.8 ms
+ 
+24276
+Benchmark #1: wget http://localhost:1337/my_process/json-cached-stringify?size=24276
+
+  Time (mean ± σ):      39.1 ms ±   1.7 ms    [User: 2.1 ms, System: 1.5 ms]
+ 
+  Range (min … max):    37.0 ms …  42.8 ms
+ 
+32368
+Benchmark #1: wget http://localhost:1337/my_process/json-cached-stringify?size=32368
+
+  Time (mean ± σ):      51.8 ms ±   2.5 ms    [User: 2.0 ms, System: 2.0 ms]
+ 
+  Range (min … max):    49.2 ms …  57.1 ms
+ 
+40460
+Benchmark #1: wget http://localhost:1337/my_process/json-cached-stringify?size=40460
+
+  Time (mean ± σ):      68.1 ms ±   4.7 ms    [User: 2.7 ms, System: 2.1 ms]
+ 
+  Range (min … max):    62.5 ms …  79.0 ms
+ 
+48552
+Benchmark #1: wget http://localhost:1337/my_process/json-cached-stringify?size=48552
+
+  Time (mean ± σ):      77.1 ms ±   2.8 ms    [User: 1.7 ms, System: 3.4 ms]
+ 
+  Range (min … max):    73.4 ms …  81.9 ms
+ 
+56644
+Benchmark #1: wget http://localhost:1337/my_process/json-cached-stringify?size=56644
+
+  Time (mean ± σ):      88.1 ms ±   2.9 ms    [User: 2.3 ms, System: 3.3 ms]
+ 
+  Range (min … max):    84.1 ms …  92.5 ms
+ 
+64736
+Benchmark #1: wget http://localhost:1337/my_process/json-cached-stringify?size=64736
+
+  Time (mean ± σ):     101.7 ms ±   5.0 ms    [User: 1.1 ms, System: 5.1 ms]
+ 
+  Range (min … max):    94.5 ms … 111.1 ms
+ 
+72828
+Benchmark #1: wget http://localhost:1337/my_process/json-cached-stringify?size=72828
+
+  Time (mean ± σ):     118.0 ms ±   5.6 ms    [User: 2.2 ms, System: 4.6 ms]
+ 
+  Range (min … max):   110.2 ms … 129.8 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+bevers@poincare:~/mesosphere/benchmarks/recordio$ ./hfbenchmark.sh 
+8092
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=8092
+
+  Time (mean ± σ):      16.7 ms ±   0.5 ms    [User: 1.6 ms, System: 0.8 ms]
+ 
+  Range (min … max):    16.0 ms …  17.6 ms
+ 
+16184
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=16184
+
+  Time (mean ± σ):      32.7 ms ±   1.2 ms    [User: 2.6 ms, System: 0.4 ms]
+ 
+  Range (min … max):    31.4 ms …  35.0 ms
+ 
+24276
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=24276
+
+  Time (mean ± σ):      49.8 ms ±   2.9 ms    [User: 0.9 ms, System: 2.6 ms]
+ 
+  Range (min … max):    47.3 ms …  54.6 ms
+ 
+32368
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=32368
+
+  Time (mean ± σ):      68.1 ms ±   5.6 ms    [User: 1.8 ms, System: 2.2 ms]
+ 
+  Range (min … max):    59.6 ms …  81.0 ms
+ 
+40460
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=40460
+
+  Time (mean ± σ):      87.8 ms ±   6.0 ms    [User: 2.3 ms, System: 2.2 ms]
+ 
+  Range (min … max):    82.8 ms … 100.0 ms
+ 
+48552
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=48552
+
+  Time (mean ± σ):     102.9 ms ±   6.4 ms    [User: 1.0 ms, System: 4.1 ms]
+ 
+  Range (min … max):    96.2 ms … 115.6 ms
+ 
+56644
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=56644
+
+  Time (mean ± σ):     127.0 ms ±   9.9 ms    [User: 1.4 ms, System: 4.4 ms]
+ 
+  Range (min … max):   116.3 ms … 141.7 ms
+ 
+64736
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=64736
+
+  Time (mean ± σ):     134.1 ms ±  10.1 ms    [User: 2.7 ms, System: 3.4 ms]
+ 
+  Range (min … max):   126.9 ms … 161.1 ms
+ 
+72828
+Benchmark #1: wget http://localhost:1337/my_process/json-cached?size=72828
+
+  Time (mean ± σ):     156.5 ms ±  10.9 ms    [User: 2.6 ms, System: 4.5 ms]
+ 
+  Range (min … max):   142.4 ms … 174.7 ms
+

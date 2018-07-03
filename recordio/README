@@ -1,0 +1,20 @@
+
+ - server.cpp
+	Server serving various sizes of JSON data using libprocess methods
+
+ - hfbenchmark.sh
+	Benchmark implemented using hyperfine
+
+ - plot_server.py
+	Plotting the result of benchmarks
+
+Deprecated files:
+
+ - gbenchmark.cpp
+	Benchmark implemented using google benchmarking framework.
+
+ - src/, dist/, benchmark.html
+	Benchmark of @dcos/recordio implemented using nodejs
+
+ - libbenchmark.hpp
+	Custom benchmarking library
